@@ -16,7 +16,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/gamaBank",
+            "outputPath": "dist/angular-bank",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "gamaBank:build"
+            "browserTarget": "angular-bank:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "gamaBank:build:production"
+              "browserTarget": "angular-bank:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gamaBank:build"
+            "browserTarget": "angular-bank:build"
           }
         },
         "test": {
@@ -113,16 +113,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "gamaBank:serve"
+            "devServerTarget": "angular-bank:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "gamaBank:serve:production"
+              "devServerTarget": "angular-bank:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "gamaBank"
+  "defaultProject": "angular-bank"
 }
