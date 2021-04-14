@@ -1,0 +1,35 @@
+.form {
+    background-color: var(--white);
+    border-radius: 8px;
+    color:var(--black);
+    height: auto;
+    margin-top: 3rem;
+    text-align: left;
+    padding: 2rem;
+}
+
+.form__header {
+    text-align: left;
+}
+
+.form__header h3 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.form__inputs {
+    margin-top: 1rem;
+}
+
+.form__validation {
+    font-size: 0.9rem;
+    color: var(--red);
+}
+
+.form__button:hover {
+    background-color: var(--bg-primary-dark);
+}
+
+.ng-invalid.ng-touched {
+    border-color: var(--red);
+}
