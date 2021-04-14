@@ -32,10 +32,3 @@ Durante o desenvolvimento do projeto, diversas versões foram trabalhadas, o lin
 
 https://github.com/danilobocuto/angular-bank
 
-## Tecnologias utilizadas
-
-- Angular
-- TypeScript
-- RxJS
-- Toastr
-- Bootstrap
