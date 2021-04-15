@@ -1,6 +1,6 @@
 # Gama Bank - Angular
 
-Gama Bank é um projeto desenvolvido pelos alunos da Accenture Academy 2.0, aonde simula um banco fake.
+Gama Bank é um projeto desenvolvido pelos alunos da Gama Academy com a Accenture, simulando um banco fake.
 Esse projeto tem uma cadastro simples de cliente, aonde ele navegar por um dashboard e acompanha o andamento da sua conta.
 
 <img src="/src/assets/img/projeto-angular-gama-bank.jpg" >
